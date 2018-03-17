@@ -1,0 +1,9 @@
+*{
+background: url(/assets/images/wood_pattern.png);
+}
+header{
+    font-family: cursive;
+    font-size: 300%;
+    padding-bottom: 25px;
+    text-align: center;
+}
