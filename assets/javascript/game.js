@@ -25,7 +25,7 @@ document.onclick = function setupGame(){
     jwld = Math.floor(Math.random() * 12) + 1;
     console.log("value A is " + jwla + " value B is " + jwlb + " value C is " + jwlc + " value D is " + jwld);
 }
-
+$("button")
 
  // current wins   wins
  //current losses losses
