@@ -1,10 +1,29 @@
-*{
+body{
 background: url(/assets/images/wood_pattern.png);
 }
 header{
     font-family: cursive;
-    font-size: 300%;
+    font-size: 80px;
     padding-bottom: 25px;
     text-align: center;
 }
-
+#random{
+  font-size: 80px;
+  text-align: center;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#instructions{
+    font-size:20px;
+}
+#scores{
+    font-family: cursive;
+    font-size: 60px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+#score{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75px;
+    padding-bottom: 25px;
+}
