@@ -1,28 +1,33 @@
-body{
-background: url("../images/wood_pattern.png");
+body {
+    background: url("../images/wood_pattern.png");
 }
-header{
+
+header {
     font-family: cursive;
     font-size: 80px;
     padding-bottom: 25px;
     text-align: center;
 }
-#random{
-  font-size: 80px;
-  text-align: center;
-  color: blue;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+#random {
+    font-size: 80px;
+    text-align: center;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-#instructions{
-    font-size:20px;
+
+#instructions {
+    font-size: 20px;
 }
-#scores{
-    font-family: cursive;
+
+#scores{  
+      font-family: cursive;
     font-size: 60px;
     padding-bottom: 25px;
     padding-top: 25px;
 }
-#score{
+
+#score {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 75px;
     padding-bottom: 25px;
@@ -30,4 +35,13 @@ header{
 
 #jwla {
     cursor: pointer
+} 
+#wins,
+#losses{
+    font-family: cursive;
+    font-size: 75px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+    font-weight: bold;
 }
