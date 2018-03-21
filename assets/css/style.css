@@ -20,31 +20,33 @@ header {
     font-size: 20px;
 }
 
-#scores{  
-      font-family: cursive;
+#scores {
+    font-family: cursive;
     font-size: 60px;
     padding-bottom: 15px;
     padding-top: 15px;
+    text-align: center;
 }
 
 #score {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 75px;
+    font-size: 65px;
     padding-bottom: 15px;
 }
 
 #jwla {
     cursor: pointer
-} 
+}
+
 #wins,
-#losses{
+#losses {
     font-family: cursive;
     font-size: 75px;
     padding-bottom: 15px;
     padding-top: 15px;
     text-align: center;
-    font-weight: bold;
 }
-p{
+
+p {
     text-align: center
 }
