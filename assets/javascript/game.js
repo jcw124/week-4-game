@@ -2,6 +2,7 @@
 // $( document ).ready(function() {
 // });
 
+
 //define variables
 
 //define random #  for starting num
@@ -61,9 +62,9 @@ function checkScore() {
 
 }
 
-
-
-// add clickable buttons and setting the value to the jewels
+ 
+//when user clicks on a jewel set that value to jewel selection variable
+//add currentl jewel selection value to score
 $("#jwla").on("click", function (e) {
     // e.preventDefault();
     score = score + jwla;
@@ -99,16 +100,7 @@ $("#jwld").click(function () {
 
 
 
-
-//userscurrent jewel selection value jwlval
-
-//when user clicks on a jewel set that value to jewel selection variable
-//add currentl jewel selection value to score
-
-
-
 //when win or loss start a new game */}
-
 
 //use to apply css to a new div for a Win or a lose
 // We then apply that CSS to our newDiv.
