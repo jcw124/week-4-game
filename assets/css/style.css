@@ -1,5 +1,5 @@
 body{
-background: url(/assets/images/wood_pattern.png);
+background: url("../images/wood_pattern.png");
 }
 header{
     font-family: cursive;
@@ -26,4 +26,8 @@ header{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 75px;
     padding-bottom: 25px;
+}
+
+#jwla {
+    cursor: pointer
 }
