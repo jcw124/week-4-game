@@ -1,6 +1,5 @@
-// set intital displays 
-// $( document ).ready(function() {
-// });
+ $( document ).ready(function() {
+ });
 
 
 //define variables
