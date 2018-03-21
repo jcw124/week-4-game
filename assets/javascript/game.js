@@ -18,7 +18,8 @@ var jwlb;
 var jwlc;
 var jwld;
 
-
+function playGame(){
+    score =0;
 // starting number numStart (array range 19-120)
 numStart = Math.floor(Math.random() * 120) + 19;
 console.log(numStart);
@@ -30,7 +31,8 @@ jwld = Math.floor(Math.random() * 12) + 1;
 console.log("value A is " + jwla + " value B is " + jwlb + " value C is " + jwlc + " value D is " + jwld);
 $("#random").html(numStart);
 $("#score").html(score);
-
+checkScore()
+}
 
 function checkScore() {
     //if numStart === score
@@ -39,7 +41,8 @@ function checkScore() {
         console.log(score + " equals " + numStart);
         wins++;
         $("#wins").html("Wins: " + wins);
-        console.log("the number of wins " + wins)
+        console.log("the number of wins " + wins);
+        playGame();
     } else
         //if numStart < score 
         if (score < numStart) {
@@ -57,7 +60,8 @@ function checkScore() {
             console.log(score + "is greater than" + numStart);
             losses++;
             $("#losses").html("Losses: " + losses);
-            console.log("the number or losses " + losses)
+            console.log("the number or losses " + losses);
+            playGame();
         }
 
 }
@@ -79,6 +83,7 @@ $("#jwlb").click(function () {
     score = score + jwlb;
     console.log(score);
     $("#score").html(score);
+    checkScore();
 });
 
 
@@ -87,6 +92,7 @@ $("#jwlc").click(function () {
     score = score + jwlc;
     console.log(score);
     $("#score").html(score);
+    checkScore();
 });
 
 
@@ -95,9 +101,10 @@ $("#jwld").click(function () {
     score = score + jwld;
     console.log(score);
     $("#score").html(score);
+    checkScore();
 });
 
-
+playGame();
 
 
 //when win or loss start a new game */}
