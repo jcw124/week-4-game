@@ -34,7 +34,10 @@ header {
     padding-bottom: 15px;
 }
 
-#jwla {
+#jewela,
+jewelb,
+jewelc,
+jeweld{
     cursor: pointer
 }
 

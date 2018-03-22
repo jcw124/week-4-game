@@ -11,22 +11,22 @@
  //define variable for the score
  var score = 0;
  //define random vales for jewels
- var jwla;
- var jwlb;
- var jwlc;
- var jwld;
+ var jewela;
+ var jewelb;
+ var jewelc;
+ var jeweld;
 
  function playGame() {
      score = 0;
      // starting number numStart (array range 19-120)
      numStart = Math.floor(Math.random() * 120) + 19;
      console.log(numStart);
-     //jewel variables   jwla jwlb jwlc jwlc (random  1-12)
-     jwla = Math.floor(Math.random() * 12) + 1;
-     jwlb = Math.floor(Math.random() * 12) + 1;
-     jwlc = Math.floor(Math.random() * 12) + 1;
-     jwld = Math.floor(Math.random() * 12) + 1;
-     console.log("value A is " + jwla + " value B is " + jwlb + " value C is " + jwlc + " value D is " + jwld);
+     //jewel variables   jewela jewelb jewelc jewelc (random  1-12)
+     jewela = Math.floor(Math.random() * 12) + 1;
+     jewelb = Math.floor(Math.random() * 12) + 1;
+     jewelc = Math.floor(Math.random() * 12) + 1;
+     jeweld = Math.floor(Math.random() * 12) + 1;
+     console.log("value A is " + jewela + " value B is " + jewelb + " value C is " + jewelc + " value D is " + jeweld);
      $("#random").html(numStart);
      $("#scores").html("Current Score: " + score);
      checkScore()
@@ -67,36 +67,35 @@
 
  //when user clicks on a jewel set that value to jewel selection variable
  //add currentl jewel selection value to score
- $("#jwla").on("click", function (e) {
-     // e.preventDefault();
-     score = score + jwla;
-     console.log("jwla is " + jwla);
+ $("#jewela").on("click", function () {
+     score = score + jewela;
+     console.log("jewela is " + jewela);
      console.log(score);
      $("#scores").html("Current Score: " + score);
      checkScore();
  });
 
- $("#jwlb").click(function () {
-     console.log("jwlb is " + jwlb);
-     score = score + jwlb;
-     console.log(score);
-     $("#scores").html("Current Score: " + score);
-     checkScore();
- });
-
-
- $("#jwlc").click(function () {
-     console.log("jwlc is " + jwlc);
-     score = score + jwlc;
+ $("#jewelb").click(function () {
+     console.log("jewelb is " + jewelb);
+     score = score + jewelb;
      console.log(score);
      $("#scores").html("Current Score: " + score);
      checkScore();
  });
 
 
- $("#jwld").click(function () {
-     console.log("jwld is " + jwld);
-     score = score + jwld;
+ $("#jewelc").click(function () {
+     console.log("jewelc is " + jewelc);
+     score = score + jewelc;
+     console.log(score);
+     $("#scores").html("Current Score: " + score);
+     checkScore();
+ });
+
+
+ $("#jeweld").click(function () {
+     console.log("jeweld is " + jeweld);
+     score = score + jeweld;
      console.log(score);
      $("#scores").html("Current Score: " + score);
      checkScore();
